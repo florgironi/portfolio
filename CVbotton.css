@@ -1,0 +1,15 @@
+.download {
+    text-wrap: nowrap;
+    border: 2px solid darkgreen;
+    padding: 8px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bottonPrimary{
+    padding:10px 14px;
+    background: #043804;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}

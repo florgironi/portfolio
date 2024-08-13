@@ -1,0 +1,64 @@
+header{
+    background-image: url(/Bkg.avif);
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+    mask-image: linear-gradient(black 80%, transparent);
+}
+.header-container{
+    object-fit: contain;
+    margin: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Glass efect */
+    background: rgba(97, 117, 92, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.661);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(53, 117, 23, 0.377);
+
+/* Como centrat el contenido */
+    position: relative;
+    height: 100vh;
+    width: 80vw;
+    justify-content: center;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoImg{
+    height: 4rem;
+    padding: 1rem;
+}
+/* Phone menu */ 
+@media all and (max-width: 320px) { 
+    .menu { 
+        display: none;
+
+}
+}
